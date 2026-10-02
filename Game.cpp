@@ -26,10 +26,10 @@ void Game::Reset()
 	for (int i = 0; i < 5; i++)
 	{
 		Box newBrick;
-		newBrick.width = 2;
+		newBrick.width = 9;
 		newBrick.height = 2;
-		newBrick.x_position = i * 19.2;
-		newBrick.y_position = 5;
+		newBrick.x_position = i * 18;
+		newBrick.y_position = 8;
 		newBrick.doubleThick = true;
 		newBrick.color = ConsoleColor::DarkGreen;
 		
